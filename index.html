@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mr+Dafoe">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal">
+    <title>Shoe Catalogue</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Brother's Friend Shoe Emporium</h1>
+      </header>
+
+      <div class="main">
+        <form id="userInput">
+          <h2 class="shoeDetails">Choose your shoe size: </h2>
+          <select id="sizeSelect" name="shoeSize">
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <h2 class="shoeDetails">Choose your shoe color: </h2>
+          <select id="colorSelect" name="shoeColor">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="black">black</option>
+            <option value="white">white</option>
+          </select>
+          <button id="submitButton" type="submit" name="submitButton" value="submit">Search</button>
+        </form>
+      </div>
+      <div id="userOutput">
+
+      </div>
+      <div class="updateStockSection">
+        <input id="updateStockButton" type="button" name="updateStockButton" value="Update">
+        <input id="closeFormButton" type="button" name="closeFormButton" value="Close">
+        <div class="updateStockFormSection">
+
+        </div>
+      </div>
+      <div id="stockUpdateOutput">
+      </div>
+    </div>
+    <script src="shoe_catalogue.js">
+
+    </script>
+  </body>
+</html>
